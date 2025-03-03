@@ -1,8 +1,1 @@
 .DS_Store
-transporter-px-loader/.terraform.lock.hcl
-transporter-px-loader/terraform.tfstate
-transporter-px-loader/terraform.tfstate.backup
-transporter-px-loader/.terraform
-transporter-px-loader/.venv
-transporter-px-loader/lambda-zip-assembly
-transporter-px-loader/tmp

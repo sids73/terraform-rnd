@@ -1,3 +1,7 @@
+# Important prerequisite : An S3 bucket by the name of lambda-dummy-code should already exist in the target AWS account.
+# The lambda-dummy-code bucket should contain a dummy-lambda-code.zip file in its root. The zip file should contain a
+# plain text file by the name of init.txt in it. The init.txt can be empty or can contain any text in it.
+
 ### The makeup of this terraform code has been intentionally spilt to separate Infrastructure Deployment from Code deployment
 When a '**terraform apply**' is performed on this code, the lambda is created with a dummy code base (an Init.txt file with some simple text in it)
 
